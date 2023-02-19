@@ -13,7 +13,7 @@ const Categories = ({ movies, filterMovies }) => {
             onClick={() => filterMovies(category)}
             key={index}
           >
-            {category} |
+            {category}
           </button>
         );
       })}

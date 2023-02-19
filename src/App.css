@@ -1,0 +1,96 @@
+h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.title {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.underline {
+  background-color: white;
+  width: 158px;
+  height: 4px;
+  margin-left: 44.7%;
+  margin-top: -48px;
+}
+
+
+body {
+  background-color: #F0141E;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.filter-btn :active {
+  border: none;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.btn-container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-btn:hover {
+  text-decoration: underline;
+}
+
+.filter-btn {
+  font-size: 2.5rem;
+  color: white;
+  background-color: #F0141E;
+  border: none;
+}
+
+
+img {
+  width: 20rem;
+  height: 22rem;
+  border-color: solid 4px white;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+
+.menu-item {
+  border-radius: 10px;
+  background-color: white;
+  color: #F0141E;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  width: 80%;
+  height: 90%;
+  height: fit-content;
+  padding: 25px;
+}
+
+
+
+.item-info {
+  margin: 25px;
+}
